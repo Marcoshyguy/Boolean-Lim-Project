@@ -1,0 +1,84 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body{
+  background-image:url(background.jpg);
+  background-size: cover;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+.container-background{
+  width:75%;
+  height:1000px;
+  margin:50px auto;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 10px;
+}
+.main-container{
+  width:80%;
+  margin:auto;
+}
+img[src="logo.png"]{
+  padding-top: 60px;
+  margin: auto;
+  width:38%;
+  display: block;
+}
+header > h1{
+  text-align: center;
+  color:lime;
+}
+
+.main-container{
+  width:80%;
+  margin:auto;
+}
+.button-bar{
+  margin: 30px auto 10px auto;
+  display:flex;
+  justify-content: center;
+  gap:20px;
+  padding:10px 0;
+  background-color: lime;
+}
+.button-bar button:hover{
+  background-color:lightblue;
+  color:white;
+  border:none;
+  transition: 1s;
+}
+.button-bar button:active{
+  color:red;
+}
+
+.Users{
+  margin: 40px 0;
+
+}
+.Users > p:first-of-type{
+  font-weight: bold;
+  margin-bottom:3px; font-size: 25px
+}
+.yellow-bar{
+  background-color: #C5D150;
+  height: 30px;
+  width:47%;
+  border-radius: 3px;
+  margin-top:7px;
+}
+.green-bar{
+  background-color: #26CC17;
+  height: 30px;
+  width:65%;
+  border-radius: 3px;
+  margin-top:7px;
+}
+.red-bar{
+  background-color: #B83116;
+  height: 30px;
+  width:30%;
+  border-radius: 3px;
+  margin-top:7px;
+}
